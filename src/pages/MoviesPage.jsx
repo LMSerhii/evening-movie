@@ -8,6 +8,7 @@ import { MovieList } from '../components/MovieList';
 import { LoadMoreBtn } from '../components/LoadMore';
 
 import { getReviewsBySearch } from '../js/helpers/api';
+import PageHeader from '../components/PageHeader';
 
 export default function MoviesPage() {
   const [movieList, setMovieList] = useState([]);
@@ -53,7 +54,7 @@ export default function MoviesPage() {
 
   return (
     <main>
-      <h1>Find your favorite movie</h1>
+      <PageHeader>Find your favorite movie</PageHeader>
       <SearchBar onSubmit={handleSubmit} setSearchParams={setSearchParams} />
 
       {error && <ErrorMessage />}

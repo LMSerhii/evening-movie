@@ -5,6 +5,7 @@ import { getData } from '../js/helpers/api';
 import { LoadMoreBtn } from '../components/LoadMore';
 import { ErrorMessage } from '../components/ErrorMessage';
 import { Bars } from 'react-loader-spinner';
+import PageHeader from '../components/PageHeader';
 
 export default function HomePage() {
   const [movieList, setMovieList] = useState([]);
@@ -47,11 +48,7 @@ export default function HomePage() {
 
   return (
     <main>
-      <h1>Trending movie today</h1>
-      {/* <marquee behavior="scroll" direction="left">
-        Trending movie today
-      </marquee> */}
-
+      <PageHeader>Trending movie today</PageHeader>
       {error && <ErrorMessage />}
 
       {movieList.length > 0 && <MovieList movieList={movieList} />}
