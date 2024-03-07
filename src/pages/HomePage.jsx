@@ -26,14 +26,6 @@ export default function HomePage() {
         });
         setTotalPages(response.total_pages);
 
-        // setMovieList(prev => {
-        //   const uniqueArrey = deleteObjDuplicates([
-        //     ...prev,
-        //     ...response.results,
-        //   ]);
-        //   return uniqueArrey;
-        // });
-
         setMovieList(prev => [...prev, ...response.results]);
       } catch (error) {
         if (error.code !== 'ERR_CANCELED') {
