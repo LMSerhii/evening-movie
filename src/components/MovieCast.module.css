@@ -1,0 +1,35 @@
+.cast {
+  background-color: #363a3e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.castList {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.authorImg {
+  margin-bottom: 10px;
+}
+
+.name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.character {
+  max-width: 250px;
+  text-align: center;
+}
+
+.moreBtn {
+  margin: 0 auto;
+  margin-top: 15px;
+}
