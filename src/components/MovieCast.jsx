@@ -75,7 +75,7 @@ export const MovieCast = () => {
         </section>
       ) : (
         <section className={css.cast}>
-          <p>No information</p>
+          <p className={css.noInfo}>No information</p>
         </section>
       )}
 
