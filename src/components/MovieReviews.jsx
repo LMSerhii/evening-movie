@@ -89,7 +89,7 @@ export const MovieReviews = () => {
         </section>
       ) : (
         <section className={css.reviews}>
-          <p>No information</p>
+          <p className={css.noInfo}>No information</p>
         </section>
       )}
       {loader && (

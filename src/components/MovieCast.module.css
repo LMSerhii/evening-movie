@@ -1,5 +1,5 @@
 .cast {
-  background-color: #363a3e;
+  background-color: #0f1924;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,14 @@
 }
 
 .authorImg {
+  width: 140px;
   margin-bottom: 10px;
 }
 
 .name {
   text-align: center;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 5px;
 }
 

@@ -1,0 +1,41 @@
+.link {
+  min-width: 100px;
+  display: block;
+  padding: 20px;
+
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+.link:focus {
+  color: goldenrod;
+}
+
+.active {
+  border-radius: 0;
+  border-bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #0f1924;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+.addTitle {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.releaseDate {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: #353935;
+  color: red;
+}
+
+.addList {
+  display: flex;
+  align-items: center;
+}

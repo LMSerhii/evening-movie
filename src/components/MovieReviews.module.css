@@ -1,5 +1,5 @@
 .reviews {
-  background-color: #363a3e;
+  background-color: #0f1924;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -32,12 +32,11 @@
   object-fit: cover;
 }
 
-.reviews {
-  background-color: #363a3e;
-  padding: 20px;
-}
-
 .moreBtn {
   margin: 0 auto;
   margin-top: 15px;
+}
+
+.noInfo {
+  margin: 0 auto;
 }
