@@ -20,7 +20,7 @@ export default function InfoBox({ title, releaseDate, rating, description }) {
         <MyRating value={rating} />
       </div>
       <Description>{description}</Description>
-      {/* <AdditionInformation /> */}
+      <AdditionInformation />
     </div>
   );
 }
