@@ -1,0 +1,34 @@
+.castList {
+  border-radius: 8px;
+  border: 1px solid #1f262e;
+  padding: 16px;
+  background-color: #101418;
+}
+
+.swiperSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.authorImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+}
+
+.character {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.noInfo {
+  margin: 0 auto;
+}

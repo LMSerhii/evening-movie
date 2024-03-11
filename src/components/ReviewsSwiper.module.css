@@ -1,0 +1,40 @@
+.mySwiper {
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  border-radius: 8px;
+  padding: 32px;
+
+  border: 1px solid #1f262e;
+}
+
+@media screen and (min-width: 768px) {
+  .review {
+    align-items: start;
+    flex-direction: row;
+    text-align: start;
+  }
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.date {
+  margin-bottom: 10px;
+  font-weight: 600;
+}

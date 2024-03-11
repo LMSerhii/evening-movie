@@ -1,0 +1,46 @@
+.tabWrapper {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #101418;
+  border: 1px solid #1f262e;
+}
+
+.link {
+  font-size: large;
+  position: relative;
+  min-width: 100px;
+  display: block;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  transition: color var(--animation), background-color var(--animation),
+    width var(--animation), left var(--animation);
+}
+.link:focus {
+  color: goldenrod;
+}
+
+.link.active {
+  border-radius: 0;
+  border-bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #101418;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #646cff;
+  transition: background-color var(--animation), width var(--animation),
+    left var(--animation);
+}

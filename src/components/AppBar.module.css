@@ -35,7 +35,8 @@
   position: relative;
   display: block;
   padding: 16px 0;
-  transition: color var(--animation);
+  transition: color var(--animation), background-color var(--animation),
+    width var(--animation), left var(--animation);
 }
 
 .link:hover,
@@ -57,4 +58,6 @@
   height: 4px;
   border-radius: 2px;
   background-color: #646cff;
+  transition: background-color var(--animation), width var(--animation),
+    left var(--animation);
 }

@@ -1,40 +1,6 @@
-.cast {
-  background-color: #0f1924;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.castList {
-  display: flex;
-  column-gap: 10px;
-  justify-content: center;
-  row-gap: 20px;
-  flex-wrap: wrap;
-}
-
-.authorImg {
-  width: 140px;
-  margin-bottom: 10px;
-}
-
-.name {
-  text-align: center;
-  font-weight: 700;
-  font-size: 12px;
-  margin-bottom: 5px;
-}
-
-.character {
-  max-width: 250px;
-  text-align: center;
-}
-
-.moreBtn {
-  margin: 0 auto;
-  margin-top: 15px;
-}
-
-.noInfo {
-  margin: 0 auto;
+.wrapper {
+  padding: 16px;
+  background-color: #101418;
+  border-radius: 8px;
+  border: 1px solid #1f262e;
 }
